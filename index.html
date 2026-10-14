@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية — مصروفي</title>
+<meta name="description" content="سياسة الخصوصية لتطبيق مصروفي لإدارة المصروفات الشخصية">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f7f5;
+    --surface: #ffffff;
+    --text: #1d2420;
+    --muted: #5d6a63;
+    --border: #e1e6e2;
+    --accent: #0f7a55;
+    --accent-soft: #e4f3ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111614;
+      --surface: #182019;
+      --text: #e6ece8;
+      --muted: #9aa8a0;
+      --border: #26312b;
+      --accent: #4cc58f;
+      --accent-soft: #1b2d24;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #111614; --surface: #182019; --text: #e6ece8; --muted: #9aa8a0;
+    --border: #26312b; --accent: #4cc58f; --accent-soft: #1b2d24;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "IBM Plex Sans Arabic", "IBM Plex Sans", system-ui, sans-serif;
+    line-height: 1.85;
+    font-size: 16px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { margin-bottom: 28px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo {
+    width: 44px; height: 44px; border-radius: 12px;
+    background: var(--accent); color: #fff;
+    display: grid; place-items: center; font-weight: 700; font-size: 22px;
+  }
+  h1 { font-size: 28px; margin: 0; line-height: 1.3; }
+  .meta { color: var(--muted); font-size: 14px; margin-top: 6px; }
+  .lang-switch { margin-top: 16px; font-size: 14px; }
+  .lang-switch a { color: var(--accent); }
+  .summary {
+    background: var(--accent-soft);
+    border-radius: 14px;
+    padding: 16px 20px;
+    margin: 24px 0 8px;
+  }
+  .summary strong { display: block; margin-bottom: 4px; }
+  .summary ul { margin: 0; padding-inline-start: 20px; }
+  section.policy {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 8px 24px 20px;
+    margin-top: 20px;
+  }
+  h2 { font-size: 19px; margin: 26px 0 6px; color: var(--accent); }
+  p, li { margin: 6px 0; }
+  ul { padding-inline-start: 22px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 8px 0; }
+  th, td { text-align: start; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 13px; }
+  .table-scroll { overflow-x: auto; }
+  a { color: var(--accent); }
+  .en { direction: ltr; text-align: left; font-family: "IBM Plex Sans", system-ui, sans-serif; line-height: 1.7; }
+  footer { color: var(--muted); font-size: 13px; text-align: center; margin-top: 36px; }
+  @media (max-width: 480px) {
+    h1 { font-size: 24px; }
+    section.policy { padding: 4px 16px 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand">
+    <div class="logo">م</div>
+    <div>
+      <h1>سياسة الخصوصية — مصروفي</h1>
+      <div class="meta">آخر تحديث: 14 أكتوبر 2026</div>
+    </div>
+  </div>
+  <div class="lang-switch"><a href="#english">English version below ↓</a></div>
+</header>
+
+<div class="summary">
+  <strong>باختصار</strong>
+  <ul>
+    <li>كل بياناتك محفوظة على جهازك فقط، ولا نملك أي خوادم.</li>
+    <li>لا يوجد تسجيل دخول، ولا إعلانات، ولا أدوات تحليل أو تتبع.</li>
+    <li>لا نقرأ رسائل SMS، ولا نرسل محتوى الإشعارات إلى أي مكان.</li>
+    <li>بياناتك لا تخرج من جهازك إلا إذا قمت أنت بمشاركة نسخة احتياطية أو تقرير.</li>
+  </ul>
+</div>
+
+<section class="policy">
+  <h2>1. من نحن</h2>
+  <p>«مصروفي» تطبيق لإدارة المصروفات والميزانية الشخصية على أندرويد (المعرّف: <span dir="ltr">com.msrofy.app</span>). توضح هذه السياسة البيانات التي يتعامل معها التطبيق وكيف يحميها.</p>
+
+  <h2>2. البيانات التي تُحفظ على جهازك</h2>
+  <p>يحفظ التطبيق البيانات التي تدخلها بنفسك في قاعدة بيانات محلية داخل مساحة التطبيق الخاصة على جهازك، وتشمل:</p>
+  <ul>
+    <li>المحافظ وأرصدتها، والميزانيات الشهرية، والتصنيفات.</li>
+    <li>المعاملات (المبلغ، النوع، التصنيف، التاريخ، والملاحظات التي تكتبها).</li>
+    <li>القروض والسُّلف، بما في ذلك أسماء الأشخاص التي تدخلها بنفسك.</li>
+    <li>الجمعيات، والمصروفات الثابتة، والتحويلات بين المحافظ.</li>
+    <li>رابط صورة الفاتورة إن أرفقتها بمعاملة (تبقى الصورة في معرض صورك ولا تُرفع إلى أي مكان).</li>
+    <li>إعدادات التطبيق (مثل يوم بداية الشهر).</li>
+  </ul>
+  <p>لا نستطيع نحن ولا أي طرف آخر الوصول إلى هذه البيانات.</p>
+
+  <h2>3. الوصول إلى الإشعارات (اختياري)</h2>
+  <p>إذا فعّلت خاصية «الوصول إلى الإشعارات»، يقرأ التطبيق نص الإشعارات الواردة على جهازك <strong>محليًا</strong> للبحث عن إشعارات الخصم من البنوك والمحافظ الإلكترونية، وذلك لتنبيهك وتسهيل تسجيل المصروف:</p>
+  <ul>
+    <li>يتم تجاهل أي إشعار لا يحتوي على كلمات بنكية أو مالية وكلمات خصم.</li>
+    <li>من الإشعار المطابق يُستخرج <strong>المبلغ واسم البنك فقط</strong> لعرض تنبيه لك.</li>
+    <li>لا يُحفظ نص الإشعار، ولا يُرسل إلى أي جهة.</li>
+    <li>لا يُسجَّل أي مصروف إلا بعد أن تضغط أنت «سجّل المصروف» وتؤكد الحفظ.</li>
+  </ul>
+  <p>يمكنك إيقاف هذه الخاصية في أي وقت من إعدادات أندرويد ← الوصول إلى الإشعارات.</p>
+
+  <h2>4. الأذونات المستخدمة</h2>
+  <div class="table-scroll">
+  <table>
+    <tr><th>الإذن</th><th>سبب الاستخدام</th></tr>
+    <tr><td>الوصول إلى الإشعارات</td><td>اكتشاف إشعارات الخصم البنكي محليًا (اختياري).</td></tr>
+    <tr><td>إرسال الإشعارات</td><td>عرض تنبيهات محلية من التطبيق نفسه.</td></tr>
+    <tr><td>الظهور فوق التطبيقات الأخرى</td><td>عرض نافذة تسجيل المصروف فور وصول إشعار الخصم (اختياري).</td></tr>
+    <tr><td>الكاميرا / الصور</td><td>تصوير أو اختيار صورة فاتورة لإرفاقها بمعاملة، فقط عندما تطلب ذلك.</td></tr>
+    <tr><td>الاهتزاز</td><td>تنبيهك عند ظهور تنبيه الخصم.</td></tr>
+  </table>
+  </div>
+  <p>التطبيق <strong>لا</strong> يطلب الوصول إلى رسائل SMS أو جهات الاتصال أو الموقع.</p>
+
+  <h2>5. المشاركة مع أطراف أخرى</h2>
+  <p>لا نبيع بياناتك ولا نشاركها مع أي جهة. لا يحتوي التطبيق على إعلانات أو أدوات تحليل أو تتبع أو تقارير أعطال، ولا يتصل بأي خادم خاص بنا.</p>
+
+  <h2>6. النسخ الاحتياطي والتصدير</h2>
+  <ul>
+    <li><strong>النسخة الاحتياطية وتقرير CSV:</strong> عند استخدامك لهما، يُنشأ ملف على جهازك ويُفتح لك قائمة المشاركة في أندرويد، وأنت من يختار أين يُرسل (مثل Google Drive أو البريد). بعد ذلك تخضع البيانات لسياسة الخدمة التي اخترتها.</li>
+    <li><strong>النسخ الاحتياطي التلقائي لأندرويد:</strong> إذا كان مفعّلًا على جهازك، قد يحفظ نظام أندرويد نسخة مشفّرة من بيانات التطبيق في حساب Google الخاص بك، وفق إعداداتك وسياسة Google.</li>
+  </ul>
+
+  <h2>7. ودجات الشاشة الرئيسية</h2>
+  <p>إذا أضفت ودجات التطبيق، فإنها تعرض أرصدة المحافظ أو الميزانيات على شاشتك الرئيسية، وهي معلومات قد يراها من يستخدم جهازك.</p>
+
+  <h2>8. الاحتفاظ بالبيانات وحذفها</h2>
+  <p>تبقى بياناتك على جهازك حتى تحذفها. يمكنك حذف أي معاملة أو محفظة أو قرض من داخل التطبيق، ولحذف جميع البيانات نهائيًا يمكنك مسح بيانات التطبيق من إعدادات أندرويد أو إلغاء تثبيته. لأننا لا نحتفظ بأي نسخة، لا يمكننا استعادة بياناتك بعد حذفها.</p>
+
+  <h2>9. الأمان</h2>
+  <p>تُحفظ البيانات في مساحة التطبيق الخاصة التي لا تستطيع التطبيقات الأخرى الوصول إليها. ننصحك بقفل جهازك برمز أو بصمة، والحفاظ على ملفات النسخ الاحتياطي التي تشاركها.</p>
+
+  <h2>10. الأطفال</h2>
+  <p>التطبيق غير موجّه للأطفال دون 13 عامًا، ولا نجمع بيانات من أي مستخدم بشكل عام.</p>
+
+  <h2>11. التغييرات على هذه السياسة</h2>
+  <p>قد نحدّث هذه السياسة من وقت لآخر، وسيُعدَّل تاريخ «آخر تحديث» أعلى الصفحة عند أي تغيير.</p>
+
+  <h2>12. التواصل معنا</h2>
+  <p>لأي استفسار بخصوص الخصوصية: <a href="mailto:support@msrofy.app">support@msrofy.app</a></p>
+</section>
+
+<section class="policy en" id="english" lang="en" dir="ltr">
+  <h2 style="font-size:22px">Privacy Policy — Msrofy (مصروفي)</h2>
+  <p class="meta">Last updated: October 14, 2026</p>
+
+  <h2>1. Overview</h2>
+  <p>Msrofy (<code>com.msrofy.app</code>) is a personal expense and budget manager for Android. It works fully offline. We do not operate servers, require accounts, show ads, or use analytics, tracking or crash-reporting tools.</p>
+
+  <h2>2. Data stored on your device</h2>
+  <p>Everything you enter is stored only in a local database in the app's private storage on your device: wallets and balances, budgets, categories, transactions (amount, type, category, date, your notes), loans and advances (including names of people you enter), savings circles (جمعيات), fixed expenses, transfers, a reference to receipt photos you attach (the photo itself stays in your gallery), and app settings. We have no access to this data.</p>
+
+  <h2>3. Notification access (optional)</h2>
+  <p>If you enable Notification Access, the app reads incoming notification text <strong>on your device</strong> to detect bank and e-wallet debit alerts. Notifications that don't contain banking and debit keywords are ignored. From a matching notification only the <strong>amount and bank name</strong> are extracted to show you an alert. Notification content is never stored or transmitted, and no expense is saved unless you tap “Record expense” and confirm. You can turn this off at any time in Android Settings → Notification access.</p>
+
+  <h2>4. Permissions</h2>
+  <ul>
+    <li><strong>Notification access</strong> — detect bank debit notifications locally (optional).</li>
+    <li><strong>Post notifications</strong> — show local alerts from the app.</li>
+    <li><strong>Display over other apps</strong> — show the quick “record expense” popup when a debit is detected (optional).</li>
+    <li><strong>Camera / photos</strong> — capture or pick a receipt photo, only when you choose to.</li>
+    <li><strong>Vibrate</strong> — alert you when a debit is detected.</li>
+  </ul>
+  <p>The app does <strong>not</strong> access your SMS, contacts or location.</p>
+
+  <h2>5. Sharing</h2>
+  <p>We do not sell or share your data with anyone. No third-party SDKs for advertising, analytics or tracking are included.</p>
+
+  <h2>6. Backup and export</h2>
+  <p>When you create a backup or a CSV report, a file is created on your device and the Android share sheet opens; you decide where it goes (e.g. Google Drive, email). Once shared, it is governed by that service's policy. If Android Auto Backup is enabled on your device, Android may store an encrypted copy of app data in your Google account under Google's policy.</p>
+
+  <h2>7. Home-screen widgets</h2>
+  <p>If you add the app's widgets, they display wallet balances or budget information on your home screen, visible to anyone using your device.</p>
+
+  <h2>8. Retention and deletion</h2>
+  <p>Your data stays on your device until you delete it. You can delete individual records in the app, or erase everything by clearing the app's data in Android Settings or uninstalling it. Because we keep no copy, deleted data cannot be recovered by us.</p>
+
+  <h2>9. Security</h2>
+  <p>Data is kept in app-private storage that other apps cannot access. We recommend protecting your device with a screen lock and keeping any shared backup files safe.</p>
+
+  <h2>10. Children</h2>
+  <p>The app is not directed at children under 13, and we do not collect personal data from any user.</p>
+
+  <h2>11. Changes</h2>
+  <p>We may update this policy; the “Last updated” date will change accordingly.</p>
+
+  <h2>12. Contact</h2>
+  <p>Privacy questions: <a href="mailto:support@msrofy.app">support@msrofy.app</a></p>
+</section>
+
+<footer>© 2026 مصروفي — Msrofy</footer>
+</div>
+</body>
+</html>
